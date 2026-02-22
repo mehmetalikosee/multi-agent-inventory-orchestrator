@@ -62,7 +62,7 @@ A production-ready **multi-agent system** built with **CrewAI**, **LangChain**, 
    If you use the Windows Store Python 3.13 explicitly:
 
    ```powershell
-   & "C:/Users/memet/AppData/Local/Microsoft/WindowsApps/python3.13.exe" -m pip install -r requirements.txt
+   & "C:/Users/XXX/AppData/Local/Microsoft/WindowsApps/python3.13.exe" -m pip install -r requirements.txt
    ```
 
    **If you see `ModuleNotFoundError: No module named 'crewai'`** — dependencies are not installed for that Python. Run one of the commands above and wait for it to finish (can take 2–5 minutes). Then run `python main.py` again.
